@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Helper">
+      <UniqueIdentifier>{8c9c43f0-9fa2-4769-8f87-91e2789bd17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KeyboardHandler">
+      <UniqueIdentifier>{7ad28898-bea2-47c5-bf3a-995f0f9869ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\KeyboardHandler">
+      <UniqueIdentifier>{e5a370fd-4a7c-4d71-b78f-46a9c8553a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object">
+      <UniqueIdentifier>{84bb3450-af1d-4424-b30b-27addda0ae79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object">
+      <UniqueIdentifier>{86582e06-28b5-4d23-a142-c508035cef02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Records">
+      <UniqueIdentifier>{61ad832e-3d68-49f9-8d66-0715eb898517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Save">
+      <UniqueIdentifier>{a36a3ddf-a7ab-440c-9d98-9464a20c0913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Setting">
+      <UniqueIdentifier>{3142261f-0636-426a-a47d-568ef3fe993d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Setting">
+      <UniqueIdentifier>{699338a2-4b62-42f1-89fb-896495391054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{46a77e31-be6a-4e4f-b64f-39bdef9b22bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{28192a8e-8922-42ca-81b0-3e404fe0d7c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="file.h">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="node.h">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.h">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="string.h">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerNameInputHandler.h">
+      <Filter>Header Files\KeyboardHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleInput.h">
+      <Filter>Header Files\KeyboardHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Keymap.h">
+      <Filter>Header Files\KeyboardHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerList.h">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Progress.h">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadSetting.h">
+      <Filter>Header Files\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Top20Display.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayMatrix.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveGame.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveSlotDisplay.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingDisplay.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HandleInput.cpp">
+      <Filter>Source Files\KeyboardHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Source Files\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Progress.cpp">
+      <Filter>Source Files\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadSetting.cpp">
+      <Filter>Source Files\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayMatrix.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Records\p1.bin">
+      <Filter>Resource Files\Records</Filter>
+    </None>
+    <None Include="Records\p2.bin">
+      <Filter>Resource Files\Records</Filter>
+    </None>
+    <None Include="Records\p3.bin">
+      <Filter>Resource Files\Records</Filter>
+    </None>
+    <None Include="Records\p4.bin">
+      <Filter>Resource Files\Records</Filter>
+    </None>
+    <None Include="Records\p5.bin">
+      <Filter>Resource Files\Records</Filter>
+    </None>
+    <None Include="Records\p6.bin">
+      <Filter>Resource Files\Records</Filter>
+    </None>
+    <None Include="Records\p7.bin">
+      <Filter>Resource Files\Records</Filter>
+    </None>
+    <None Include="Records\p8.bin">
+      <Filter>Resource Files\Records</Filter>
+    </None>
+    <None Include="Records\p9.bin">
+      <Filter>Resource Files\Records</Filter>
+    </None>
+    <None Include="Records\p10.bin">
+      <Filter>Resource Files\Records</Filter>
+    </None>
+    <None Include="Records\p11.bin">
+      <Filter>Resource Files\Records</Filter>
+    </None>
+    <None Include="Records\p12.bin">
+      <Filter>Resource Files\Records</Filter>
+    </None>
+    <None Include="Records\p13.bin">
+      <Filter>Resource Files\Records</Filter>
+    </None>
+    <None Include="Records\p14.bin">
+      <Filter>Resource Files\Records</Filter>
+    </None>
+    <None Include="Records\p15.bin">
+      <Filter>Resource Files\Records</Filter>
+    </None>
+    <None Include="Records\p16.bin">
+      <Filter>Resource Files\Records</Filter>
+    </None>
+    <None Include="Records\p17.bin">
+      <Filter>Resource Files\Records</Filter>
+    </None>
+    <None Include="Records\p18.bin">
+      <Filter>Resource Files\Records</Filter>
+    </None>
+    <None Include="Records\p19.bin">
+      <Filter>Resource Files\Records</Filter>
+    </None>
+    <None Include="Records\p20.bin">
+      <Filter>Resource Files\Records</Filter>
+    </None>
+    <None Include="Save\p1.bin">
+      <Filter>Resource Files\Save</Filter>
+    </None>
+    <None Include="Save\p2.bin">
+      <Filter>Resource Files\Save</Filter>
+    </None>
+    <None Include="Save\p3.bin">
+      <Filter>Resource Files\Save</Filter>
+    </None>
+    <None Include="Save\p4.bin">
+      <Filter>Resource Files\Save</Filter>
+    </None>
+    <None Include="Save\p5.bin">
+      <Filter>Resource Files\Save</Filter>
+    </None>
+    <None Include="setting.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="README.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
