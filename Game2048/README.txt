@@ -1,7 +1,4 @@
-Họ và tên: Trần Hùng Anh
-MSSV: 22120016
-
-Đồ án game 2048 Kỹ thuật lập trình
+---- Game 2048 ----
 
 Video demo: https://drive.google.com/drive/folders/1V184gKfmY2EO9St-HoPOS8JRz_vWam92?usp=sharing
 
@@ -34,3 +31,5 @@ New Game:
     -Sử dụng các nút mũi tên để chơi game, R để Redo, E để Undo (nếu đã Enable Undo/Redo).
     -Nhấn Esc để thoát khỏi trò chơi, người dùng sẽ được yêu cầu chọn Slot save game.
     -Khi đạt 1 ô 2048, game sẽ hiện thông báo win game, người chơi được phép chọn chơi tiếp hoặc thoát.
+
+Tạo ra bởi Trần Hùng Anh, ĐH Khoa học Tự nhiên. Đã xin phép chính chủ.
