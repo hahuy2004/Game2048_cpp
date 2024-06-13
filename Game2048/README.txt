@@ -32,4 +32,4 @@ New Game:
     -Nhấn Esc để thoát khỏi trò chơi, người dùng sẽ được yêu cầu chọn Slot save game.
     -Khi đạt 1 ô 2048, game sẽ hiện thông báo win game, người chơi được phép chọn chơi tiếp hoặc thoát.
 
-Tạo ra bởi Trần Hùng Anh, ĐH Khoa học Tự nhiên. Đã xin phép chính chủ.
+Tạo ra bởi Trần Hùng Anh, MSSV: 22120016, ĐH Khoa học Tự nhiên - ĐHQG HCM. Đã xin phép chính chủ.
